@@ -1,0 +1,7 @@
+target
+/*.txt
+/*.csv
+/*.png
+/saida
+.idea
+*.iml
