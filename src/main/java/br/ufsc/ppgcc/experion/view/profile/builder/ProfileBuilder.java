@@ -107,4 +107,13 @@ public class ProfileBuilder {
     public void setEngine(ProfileBuilderEngine engine) {
         this.engine = engine;
     }
+
+    @Override
+    public String toString() {
+        return "ProfileBuilder{" +
+                "name='" + name + '\'' +
+                ", engineClassName='" + engineClassName + '\'' +
+                ", params='" + params + '\'' +
+                '}';
+    }
 }

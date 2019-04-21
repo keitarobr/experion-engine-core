@@ -122,4 +122,13 @@ public class EvidenceSourceInput implements Serializable {
     public void setSource(EvidenceSource source) {
         this.source = source;
     }
+
+    @Override
+    public String toString() {
+        return "EvidenceSourceInput{" +
+                "name='" + name + '\'' +
+                ", engineClassName='" + engineClassName + '\'' +
+                ", source=" + source +
+                '}';
+    }
 }

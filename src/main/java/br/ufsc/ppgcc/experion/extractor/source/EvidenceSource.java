@@ -101,4 +101,12 @@ public class EvidenceSource implements Serializable {
     public void setInputs(Set<EvidenceSourceInput> inputs) {
         this.inputs = inputs;
     }
+
+    @Override
+    public String toString() {
+        return "EvidenceSource{" +
+                "name='" + name + '\'' +
+                ", url='" + url + '\'' +
+                '}';
+    }
 }

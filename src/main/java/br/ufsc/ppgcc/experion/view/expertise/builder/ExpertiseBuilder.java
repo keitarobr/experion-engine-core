@@ -106,4 +106,13 @@ public class ExpertiseBuilder {
     public void setEngine(ExpertiseBuilderEngine engine) {
         this.engine = engine;
     }
+
+    @Override
+    public String toString() {
+        return "ExpertiseBuilder{" +
+                "name='" + name + '\'' +
+                ", engineClassName='" + engineClassName + '\'' +
+                ", params='" + params + '\'' +
+                '}';
+    }
 }
